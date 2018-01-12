@@ -1,0 +1,42 @@
+<style>
+  #top {
+      color:blue;
+      font-family:impact;
+      text-align:left;
+  }
+  body {
+      background-image: url("images/harry.jpg");
+      background-repeat:repeat-y;
+  }
+  #mark {
+      width:150px;
+      height:100px;
+      float:left;
+      visibility:hidden;
+      
+  }  
+  #potter {
+      width:185px;
+      height:200px;
+      float:left;
+  }
+ #right {
+        width:150px;
+        height:100px;
+        visibility:hidden;
+  }
+  #good {
+        width:325px;
+        height:150px;
+        position: absolute;
+        opacity:1.2;
+        visibility:hidden;
+  }
+  #try {
+        width:350px;
+        height:150px;
+        position:absolute;
+        opacity:1.2;
+        visibility:hidden;       
+  }
+</style>

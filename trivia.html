@@ -1,0 +1,35 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>Trivia Quiz</title>
+            <script src="trivia.js">
+    </script>
+	<link type="text/css" rel="stylesheet" href="trivia.css">
+</head>
+<body LINK="F7DD5E" VLINK="F7DD5E" ALINK="F7DD5E" onLoad="main()">
+    
+     <h1 id="top">Harry Potter</h1>  
+<br>
+<FORM name="view">  
+	Question: &nbsp;<input type="text" name="qnum" size="4" >&nbsp;<input type="button" name="go" value=" Next Question" onClick=main()>
+    <br>
+      <img src = "images/celebrate.jpg" id = "good">
+      <img src = "images/try.jpg" id = "try">
+    <br>
+    Answer:&nbsp;&nbsp;&nbsp; <input type="text" id="qans" size="4">&nbsp;<input type="button" value="Submit Answer" onClick=submitAnswer()>
+	<br>
+    <br>
+    Score: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id= "score" name="qscore" size="4">
+	<br>
+	<br>
+	<TEXTAREA COLS=31 ROWS=9 id="question"  wrap="virtual"></TEXTAREA> 
+      <p><img src="images/potter.jpg" id="potter"></p>
+      <br> <br>
+      <p><img src="images/mark.png" id="mark"></p>
+      <p><img src="images/question.jpg" id="right"></p>
+</FORM>
+</body>
+
+</html>
+
+              
