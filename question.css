@@ -8,3 +8,9 @@
        width:100px;
        height:200px;
   }
+  #potter {
+    float: left;
+}
+  #final {
+    float:left;
+}
